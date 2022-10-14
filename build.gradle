@@ -116,10 +116,10 @@ configure(subprojects - project(':integration')) {
     publishing {
         publications {
             mavenJava(MavenPublication) {
-                artifactId = project.name
+                artifactId = "kasmar00${project.name}"
                 from(components.java)
                 pom {
-                    name = project.name
+                    name = "kasmar00${project.name}"
                     description = 'Fast and reliable message broker built on top of Kafka.'
                     url = 'https://github.com/allegro/hermes'
                     inceptionYear = '2015'
@@ -136,9 +136,9 @@ configure(subprojects - project(':integration')) {
                         }
                     }
                     scm {
-                        url = 'https://github.com/allegro/hermes'
-                        connection = 'scm:git@github.com:allegro/hermes.git'
-                        developerConnection = 'scm:git@github.com:allegro/hermes.git'
+                        url = 'https://github.com/kasmar00/hermes'
+                        connection = 'scm:git@github.com:kasmar00/hermes.git'
+                        developerConnection = 'scm:git@github.com:kasmar00/hermes.git'
                     }
                 }
             }
