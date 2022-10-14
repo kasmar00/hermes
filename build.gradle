@@ -121,7 +121,7 @@ configure(subprojects - project(':integration')) {
                 pom {
                     name = "kasmar00${project.name}"
                     description = 'Fast and reliable message broker built on top of Kafka.'
-                    url = 'https://github.com/allegro/hermes'
+                    url = 'https://github.com/kasmar00/hermes'
                     inceptionYear = '2015'
                     licenses {
                         license {
